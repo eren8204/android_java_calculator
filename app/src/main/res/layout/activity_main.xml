@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroup"
+        android:layout_width="@dimen/_305sdp"
+        android:layout_height="@dimen/_423sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/guideline5"
+        app:layout_constraintVertical_bias="0.479">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/clear"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       C"
+            android:textStyle="bold" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/forward"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       →" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/back"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="      ⌫" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/divide"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       ÷" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/btn7"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       7"
+            android:textStyle="bold" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/btn8"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       8" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/btn9"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       9" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/multiply"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       x" />
+
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/btn4"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       4" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/btn5"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       5" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/btn6"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       6" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/plus"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       +" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/btn1"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="      1" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/btn2"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       2" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/btn3"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       3" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/minus"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       —" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/double_zero"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="      00" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/btn0"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       0" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/decimal"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       •" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/equals"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_71sdp"
+            android:checkable="false"
+            android:text="       =" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <TextView
+        android:id="@+id/outputText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/chipGroup"
+        app:layout_constraintDimensionRatio="393:66"
+        app:layout_constraintEnd_toEndOf="@id/guideline"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896" />
+
+    <TextView
+        android:id="@+id/inputText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/outputText"
+        app:layout_constraintDimensionRatio="393:66"
+        app:layout_constraintEnd_toEndOf="@id/guideline"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.98" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
